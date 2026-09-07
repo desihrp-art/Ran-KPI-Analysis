@@ -23,3 +23,55 @@
 
 > Classification is based on simulated KPI data and represents performance indications requiring further investigation rather than confirmed root causes.
 
+## Root Cause Analysis – Cell006
+
+### KPI Condition
+
+* PRB Utilization: **95%**
+* DL Throughput: **5.8 Mbps**
+* CQI: **6**
+* Rank: **2**
+* Payload: **75.6 GB**
+* Availability: **99.2%**
+
+### Performance Assessment
+
+Cell006 shows a potential capacity and radio performance issue.
+
+The combination of very high PRB utilization, high payload, low DL throughput, and low CQI indicates that the cell is heavily loaded while users are experiencing relatively poor radio conditions.
+
+The high availability value indicates that the issue is not primarily related to cell availability.
+
+### Possible Root Causes
+
+1. High traffic load / cell congestion
+2. Poor radio quality affecting spectral efficiency
+3. Interference or degraded radio conditions
+4. Limited effective capacity on the serving cell
+5. Potential traffic imbalance with neighboring cells
+
+### Recommended Investigation
+
+Before applying optimization actions, investigate:
+
+* Traffic and active user trend
+* PRB utilization trend
+* CQI distribution
+* DL/UL resource utilization
+* Neighboring cell load
+* Handover performance
+* Coverage and radio quality indicators
+* Rank distribution and MIMO performance
+
+### Initial Optimization Direction
+
+Potential optimization actions include:
+
+* Load balancing between neighboring cells
+* Neighbor and handover optimization
+* Radio parameter optimization
+* Investigation of interference conditions
+* Capacity expansion if sustained congestion is confirmed
+* MIMO performance investigation if Rank distribution indicates degradation
+
+The final optimization action should be based on the confirmed root cause rather than KPI threshold results alone.
