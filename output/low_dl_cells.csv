@@ -1,0 +1,5 @@
+Date,Site,Cell,Technology,Band,PRB_Utilization,DL_Throughput_Mbps,UL_Throughput_Mbps,CQI,EUT_Mbps,Payload_GB,Availability
+2026-08-01,SITE001,Cell002,4G,L1800,91,8.2,2.8,7,7.4,68.2,99.5
+2026-08-01,SITE002,Cell004,4G,L1800,88,9.5,3.1,8,8.7,61.4,99.6
+2026-08-01,SITE003,Cell006,4G,L1800,95,5.8,2.1,6,5.2,75.6,99.2
+2026-08-01,SITE005,Cell010,4G,L1800,89,7.6,2.5,7,6.9,64.8,99.4
